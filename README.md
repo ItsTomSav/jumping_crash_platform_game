@@ -136,11 +136,7 @@ Each folder is structured for modularity, making the project scalable and easy t
 - Modular **UI system** with menus and sound feedback  
 - **Countdown timer** with visual and audio warnings  
 - **Particle systems** for explosions, hits, and coins  
-- **Level-based progression** with scoring and star ranking  
-
-<p align="center">
-  <img src="images/level_gameplay.png" alt="Gameplay Scene" width="600"/>
-</p>
+- **Level-based progression** with scoring and star ranking
 
 ---
 
