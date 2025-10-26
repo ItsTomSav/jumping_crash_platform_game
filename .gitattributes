@@ -1,2 +1,22 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normalizza automaticamente i line endings
+* text=auto eol=lf
+
+# Tratta i file binari Unity come tali (no conversione line endings)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.wav binary
+*.mp3 binary
+*.fbx binary
+*.prefab binary
+*.unity binary
+*.meta binary
+*.dll binary
+*.exe binary
+*.mp4 binary
+*.anim binary
+*.controller binary
+*.mat binary
+*.asset binary
+*.physicMaterial binary
+*.tga binary

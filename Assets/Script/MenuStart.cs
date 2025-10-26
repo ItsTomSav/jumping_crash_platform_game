@@ -1,0 +1,28 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class MenuStart : MonoBehaviour
+{
+    public void StartGame()
+    {
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+        SceneManager.LoadScene("Livello01");
+    }
+
+    public void StartTutorial()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
+    
+    public void Options()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+    }
+    
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+}
