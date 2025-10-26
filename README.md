@@ -3,11 +3,12 @@
 A 3D platformer game developed in **Unity (2022.3.8)** using **C# scripts** for gameplay mechanics, UI management, and audio control.  
 Inspired by classic platformers like *Super Mario 64*, *Crash Bandicoot*, and *ALTF4*, this project was developed as part of the *Human-Machine Interaction* course at **Politecnico di Bari**.
 
+#CANCELLAMI
 ---
 
 ## 🧠 Overview
 **Jumping Crash** is a 3D platformer game where the player controls a character named *Crash* through multiple levels filled with traps, moving obstacles, and enemies.  
-The main goal is to **collect all coins** and **reach the portal** before the timer expires — combining precision, timing, and awareness.
+The main goal is to **collect all coins** and **reach the portal** before the timer expires, combining precision, timing, and awareness.
 
 The project demonstrates advanced use of **Unity Engine** components such as:
 - Physics and collision systems  
@@ -34,10 +35,29 @@ The menu design uses Unity UI components and animated transitions for a smooth e
   <img src="images/main_menu.png" alt="Main Menu" width="600"/>
 </p>
 
+When the player start the game, this is the screen scene:
+<p align="center">
+  <img src="images/game_screen.png" alt="Gameplay Scene" width="600"/>
+</p>
+
+From the **Pause Menu**, players can resume, restart, or quit the level.
+<p align="center">
+  <img src="images/pause_menu.png" alt="Pause Menu" width="600"/>
+</p>
+
+**Options** allow sound configuration and access to the control instructions.
+<p align="center">
+  <img src="images/option_menu.png" alt="Options Menu" width="600"/>
+</p>
+
 The game is composed of **multiple scenes**:
 - **Tutorial Scene**: introduces controls and basic movement.  
 - **Four main levels**: progressively harder, with moving platforms, traps, and enemies.  
 - **End Screen**: shows player score and stars based on completion time.
+
+<p align="center">
+  <img src="images/scenes.png" alt="Scenes Overview" width="600"/>
+</p>
 
 ### 🧭 Controls
 - `W`, `A`, `S`, `D` → Move  
@@ -51,12 +71,28 @@ The game is composed of **multiple scenes**:
 Each level introduces new gameplay elements that challenge the player’s precision and timing:
 
 - **Moving and rotating platforms**
-- **Spiked enemies** patrolling certain zones
-- **Cannons** shooting projectiles
+- **Traps and spiked enemies**
+- **Cannons shooting projectiles**
 - **Swinging traps**, **falling logs**, and **wind blades**
 
+Here are some examples of in-game enemies and obstacles:
+
 <p align="center">
-  <img src="images/enemies_scene.png" alt="Enemies and obstacles" width="600"/>
+  <img src="images/spine_enemy.png" alt="Spiked Enemy" width="250"/>
+  <img src="images/spine_ball.png" alt="Spiked Ball" width="100"/>
+  <img src="images/spine_wall.png" alt="Spiked Wall" width="250"/>
+</p>
+
+<p align="center">
+  <img src="images/eolic_enemy.png" alt="Eolic Enemy" width="150"/>
+  <img src="images/cannon_ball.png" alt="Cannon Ball" width="250"/>
+  <img src="images/woods_spawner.png" alt="Wood Spawner" width="250"/>
+</p>
+
+When completing a level, the **Level Complete Screen** displays the player’s performance with stars based on completion time and coins collected.
+
+<p align="center">
+  <img src="images/complete_level_screen.png" alt="Level Complete Screen" width="600"/>
 </p>
 
 The environment design balances difficulty with player engagement, ensuring a progressive learning curve and rewarding exploration.
@@ -70,7 +106,7 @@ Each scene includes background music and contextual sound effects (jump, collisi
 Volume preferences are saved persistently through `PlayerPrefs`, maintaining the user’s audio settings even after closing the game.
 
 <p align="center">
-  <img src="images/audio_mixer.png" alt="Unity Audio Mixer" width="600"/>
+  <img src="images/audio_mixer.png" alt="Unity Audio Mixer" width="200"/>
 </p>
 
 ---
@@ -124,18 +160,6 @@ Each folder is structured for modularity, making the project scalable and easy t
 Developed by  
 **[Tommaso Savino](https://github.com/ItsTomSav)** and **[Francesco Savino](https://github.com/FrankSav80)**  
 *Master’s Degree in Automation Engineering* — Politecnico di Bari  
-
----
-
-## 🎬 Demo
-
-Once uploaded, you can embed a gameplay demo like this:
-
-<p align="center">
-  <a href="media/demo.mp4">
-    <img src="images/thumbnail.png" alt="Watch Gameplay Demo" width="600"/>
-  </a>
-</p>
 
 ---
 
