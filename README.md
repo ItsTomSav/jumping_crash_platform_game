@@ -3,7 +3,6 @@
 A 3D platformer game developed in **Unity (2022.3.8)** using **C# scripts** for gameplay mechanics, UI management, and audio control.  
 Inspired by classic platformers like *Super Mario 64*, *Crash Bandicoot*, and *ALTF4*, this project was developed as part of the *Human-Machine Interaction* course at **Politecnico di Bari**.
 
-#CANCELLAMI
 ---
 
 ## 🧠 Overview
